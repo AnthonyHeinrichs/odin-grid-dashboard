@@ -1,0 +1,36 @@
+html, body {
+  margin: 0px;
+  height: 100%;
+}
+
+p {
+  margin: 0px;
+}
+
+.container {
+  background-color: blueviolet;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  height: 100%;
+}
+
+.dashboardMenu {
+  background-color: blue;
+  grid-area: 1 / 1 / 11 / 3;
+}
+
+.header {
+  background-color: yellow;
+  grid-area: 1 / 3 / 3 / 11
+}
+
+.cards {
+  background-color: teal;
+  grid-area: 3 / 3 / 11 / 9
+}
+
+.additionalContent {
+  background-color: green;
+  grid-area: 3 / 9 / 11 / 11
+}
