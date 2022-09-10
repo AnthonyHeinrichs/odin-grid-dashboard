@@ -16,8 +16,33 @@ p {
 }
 
 .dashboardMenu {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
   background-color: #1992D4;
   grid-area: 1 / 1 / 11 / 3;
+}
+
+.mainLinks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.subLinks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.main, .sub {
+  margin-top: 10px;
 }
 
 .header {
