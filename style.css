@@ -57,6 +57,26 @@ p {
   grid-area: 3 / 3 / 11 / 9
 }
 
+.allCards {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0px 24px 0px 24px;
+}
+
+.card {
+  background-color: white;
+  height: 300px;
+  min-width: 40%;
+  flex-basis: auto;
+  flex-grow: 1;
+}
+
+.cardTitle {
+  margin-left: 24px;
+}
+
 .additionalContent {
   background-color: #E2E8F0;
   border: solid black;
