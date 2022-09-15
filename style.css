@@ -25,11 +25,16 @@ p {
   grid-area: 1 / 1 / 11 / 3;
 }
 
+.dashboardTitle {
+  margin-left: 24px;
+}
+
 .mainLinks {
   display: flex;
   flex-direction: column;
   margin-top: 48px;
   margin-bottom: 48px;
+  margin-left: 24px;
   font-size: 24px;
   font-weight: 700;
   color: white;
@@ -39,6 +44,7 @@ p {
   display: flex;
   flex-direction: column;
   margin-top: 24px;
+  margin-left: 24px;
 }
 
 .main, .sub {
@@ -67,10 +73,13 @@ p {
 
 .card {
   background-color: white;
-  height: 300px;
+  height: 250px;
   min-width: 40%;
   flex-basis: auto;
   flex-grow: 1;
+  margin-top: 24px;
+  border-radius: 15px;
+  border-left: 12px solid orange;
 }
 
 .cardTitle {
