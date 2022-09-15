@@ -7,6 +7,18 @@ p {
   margin: 0px;
 }
 
+button {
+  background-color:#1992D4;
+  border: none;
+  border-radius: 15px;
+  font-weight: 900;
+  font-size: 18px;
+  color: white;
+  padding: 15px 24px 15px 24px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
 .container {
   background-color: blueviolet;
   display: grid;
