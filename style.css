@@ -88,6 +88,21 @@ p {
 
 .additionalContent {
   background-color: #E2E8F0;
-  border: solid black;
   grid-area: 3 / 9 / 11 / 11
+}
+
+.announcementsTitle {
+ margin-bottom: 48px;
+}
+
+.trendingTitle {
+  margin-bottom: 24px;
+}
+
+.additionalCard {
+  background-color: white;
+  height: 400px;
+  margin-right: 12px;
+  margin-top: 24px;
+  border-radius: 10px;
 }
